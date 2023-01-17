@@ -22,7 +22,8 @@ body {
   line-height: 24px;
 }
 /* I use a container to keep the content part in the center of the screen*/
-/* .container {
+
+/* /* .container {
   max-width: 1480px;
   margin: 0 auto;
 } */
@@ -42,6 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 20%;
 }
 
 .logo-container {
@@ -67,7 +69,8 @@ body {
 
 .footer-top-center {
   display: flex;
-  gap: 128px;
+  width: 40%;
+  justify-content: space-between;
 }
 
 .footer-top-info {
@@ -102,6 +105,7 @@ body {
   flex-direction: column;
   gap: 23px;
   align-items: flex-start;
+  width: 15%;
 }
 
 .footer-top-right h4 {
@@ -146,7 +150,8 @@ body {
 
 .footer-bottom-left {
   display: flex;
-  gap: 60px;
+  width: 60%;
+  justify-content: space-between;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -164,4 +169,16 @@ body {
   display: flex;
   gap: 32px;
   align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer h4 {
+    font-size: 17px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .footer a {
+    font-size: 12px;
+  }
 }
