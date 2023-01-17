@@ -170,15 +170,3 @@ body {
   gap: 32px;
   align-items: center;
 }
-
-/* @media only screen and (max-width: 1200px) {
-  .footer h4 {
-    font-size: 17px;
-  }
-  .footer p {
-    font-size: 12px;
-  }
-  .footer a {
-    font-size: 12px;
-  }
-} */
