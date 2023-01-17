@@ -155,8 +155,36 @@ button {
 }
 
 /* adaptive for section Pricing */
-@media (max-width: 768px) {
+@media (max-width: 815px) {
+  .pricing {
+    padding-top: 30px;
+  }
   .pricing__inner {
     flex-direction: column;
+  }
+  .pricing__card {
+    text-align: center;
+    padding: 20px;
+  }
+  .pricing__card .pricing__title,
+  .card__title {
+    text-align: center;
+  }
+  .pricing__text {
+    max-width: auto;
+  }
+  .pricing__title {
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
+
+@media (max-width: 468px) {
+  .pricing__title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .pricing {
+    padding-bottom: 60px;
   }
 }
