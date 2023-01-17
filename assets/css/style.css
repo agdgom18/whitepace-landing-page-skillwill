@@ -98,3 +98,49 @@ flex-grow: 0;
 order: 0;
 flex-grow: 0;
 }
+
+.your-work {
+  text-align: center;
+  padding: 140px 220px;
+  background-color:#043873;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.your-work-header {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+}
+
+.your-work-p {
+  font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.02em;
+}
+
+.your-work-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 24px;
+}
+
+.your-work-button {
+  background: #4F9CF9;
+  border-radius: 8px;
+  padding: 20px 40px;
+  gap: 10px;
+  color: white;
+  border: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+}
