@@ -1,25 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
 }
+
 a {
   color: inherit;
 }
+
 button::hover {
   cursor: pointer;
 }
 
 body {
   /* font-family: 'DM Sans', sans-serif; for menu  */
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
 /* I use a container to keep the content part in the center of the screen*/
-.container {
+/* .container {
   max-width: 1480px;
   margin: 0 auto;
+} */
+
+.footer {
+  padding: 140px 220px 32px 220px;
+  background-color: #043873;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 67px;
+}
+
+.footer-top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.footer-top-left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #f7f7ee;
+}
+
+.footer-top-center {
+  display: flex;
+  gap: 128px;
+}
+
+.footer-top-info {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-top-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-top-info p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-top-info a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-top-right {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: flex-start;
+}
+
+.footer-top-right h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-top-right p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-button {
+  display: flex;
+  background: #4f9cf9;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  border: none;
+  padding: 20px 23px 20px 23px;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-bottom {
+  display: flex;
+  border-top: 1px solid #2e4e73;
+  padding-top: 32px;
+  justify-content: space-between;
+}
+
+.footer-bottom-left {
+  display: flex;
+  gap: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.lang-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 32px;
+  align-items: center;
 }
