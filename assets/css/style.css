@@ -1,23 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-}
-a {
-  color: inherit;
-}
-button::hover {
-  cursor: pointer;
-}
-a:hover {
-  color: #ffe492;
-}
 
 body {
   /* font-family: 'DM Sans', sans-serif; for menu  */
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
@@ -25,4 +9,55 @@ body {
 .container {
   max-width: 1480px;
   margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 220px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav a {
+  font-size: 18px;
+  line-height: 23px;
+  color: #4f9cf9;
+}
+
+.nav__item {
+  display: flex;
+  gap: 10px;
+}
+
+.header__auth {
+  display: flex;
+  gap: 24px;
+}
+
+.login {
+  background-color: #ffe492;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #043873;
+}
+
+.sign-up {
+  background-color: #4f9cf9;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding: 18.5px 24px;
 }
