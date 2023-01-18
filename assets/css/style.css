@@ -127,7 +127,6 @@ body {
 }
 
 .footer-button {
-  display: flex;
   background: #4f9cf9;
   border-radius: 8px;
   font-weight: 400;
@@ -137,8 +136,6 @@ body {
   color: #ffffff;
   border: none;
   padding: 20px 23px 20px 23px;
-  gap: 10px;
-  align-items: center;
 }
 
 .footer-bottom {
