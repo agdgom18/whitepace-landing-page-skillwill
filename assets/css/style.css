@@ -150,7 +150,7 @@ body {
 
 .footer-bottom-left {
   display: flex;
-  gap: 30px;
+  width: 80%;
   justify-content: space-between;
   font-weight: 400;
   font-size: 16px;
@@ -165,8 +165,12 @@ body {
   gap: 10px;
 }
 
+.footer-bottom-right {
+  width: 10%;
+}
+
 .footer-social-icons {
   display: flex;
-  gap: 32px;
+  justify-content: space-between;
   align-items: center;
 }
