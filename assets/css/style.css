@@ -6,11 +6,17 @@
   list-style: none;
 }
 body {
+  /* font-family: 'DM Sans', sans-serif; for menu  */
   font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 a {
   color: inherit;
+}
+a:hover {
+  color: #ffe492;
 }
 button {
   cursor: pointer;
@@ -34,8 +40,6 @@ button {
   text-align: center;
   letter-spacing: -0.02em;
   color: #212529;
-
-  /* background-attachment: fixed; */
 }
 .pricing__title span {
   background-image: url(/assets/img/price__vector.png);
