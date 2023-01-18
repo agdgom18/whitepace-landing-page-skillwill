@@ -16,17 +16,12 @@ button::hover {
 }
 
 body {
-  /* font-family: 'DM Sans', sans-serif; for menu  */
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
-/* I use a container to keep the content part in the center of the screen*/
 
-/* /* .container {
-  max-width: 1480px;
-  margin: 0 auto;
-} */
+/* start footer style */
 
 .footer {
   padding: 140px 220px 32px 220px;
@@ -136,6 +131,7 @@ body {
   color: #ffffff;
   border: none;
   padding: 20px 23px 20px 23px;
+  cursor: pointer;
 }
 
 .footer-bottom {
@@ -171,3 +167,5 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+/* end footer style */

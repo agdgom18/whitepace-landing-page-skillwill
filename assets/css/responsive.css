@@ -1,3 +1,5 @@
+/* Start footer responsive design */
+
 @media only screen and (max-width: 1200px) {
   .footer-top {
     flex-wrap: wrap;
@@ -42,3 +44,5 @@
     gap: 15px;
   }
 }
+
+/* End footer responsive design */
