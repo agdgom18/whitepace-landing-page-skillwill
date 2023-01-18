@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+button::hover {
+  cursor: pointer;
+}
+
+body {
+  /* font-family: 'DM Sans', sans-serif; for menu  */
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* I use a container to keep the content part in the center of the screen*/
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+}
+.Customize {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  margin: 5% 8%;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 87px;
+
+  color: #212529;
+}
+.image {
+  width: 710px;
+  height: 479px;
+  background: #c4defd;
+}
+
+.Customize__container span {
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: 63% 100%;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+  background: #4f9cf9;
+  border-radius: 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+}
+
+.Customize__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #212529;
+}
+.Customize__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 700px;
+  gap: 60px;
+}
+.text_box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (max-width: 468px) {
+  .Customize {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 12% 0%;
+  }
+  h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 10px;
+    color: #212529;
+    text-align: center;
+  }
+  .Customize__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .Customize__container span {
+    background-image: url(./images/Element.png);
+    background-repeat: no-repeat;
+    background-position: 90% 20px;
+  }
+  .text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    background: #4f9cf9;
+    border-radius: 6px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+  }
+
+  .Customize__paragraph {
+    font-size: 10px;
+    line-height: 15px;
+    color: #212529;
+
+    width: 300px;
+  }
+  .image {
+    width: 300px;
+    height: 180px;
+  }
+}
