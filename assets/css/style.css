@@ -4,10 +4,9 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
-a {
-  color: inherit;
-}
+
 button::hover {
   cursor: pointer;
 }
@@ -15,11 +14,67 @@ button::hover {
 body {
   /* font-family: 'DM Sans', sans-serif; for menu  */
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
 }
-/* I use a container to keep the content part in the center of the screen*/
-.container {
-  max-width: 1480px;
-  margin: 0 auto;
+
+.testimonial{
+  padding: 140px 220px ;
+  position: relative;
+}
+.testimonial-h2{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+}
+.vectorpic{
+  position: absolute;
+  top: 222px;
+  left: 780px;
+  }
+.testimonial-cards{
+  display: flex;
+  gap:32px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.testimonial-article{
+padding: 60px 82px 60px 40px;
+background: #4F9CF9;
+border-radius: 10px;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+.testimonial-cards :hover {
+  background: #FFFFFF;
+  color:#01252A;
+}
+
+.testimonial-article img{
+  margin-bottom: 35px;
+}
+.speach{
+  margin-bottom: 50px;
+}
+
+.testimonial-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.testimonialbutton{
+  display: flex;
+  justify-content: center;
+  gap: 100px
+
+}
+.testimonial-img{
+  padding: 15px 25px;
+  justify-items: center;
+  border: 1.5px solid #4F9CF9;
+  background: #E6F1FE;
+  border-radius: 50%;
 }
