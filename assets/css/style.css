@@ -435,27 +435,7 @@ button {
   letter-spacing: -0.02em;
 }
 
-/* start footer style */
-
-.footer {
-  padding: 140px 220px 32px 220px;
-  background-color: #043873;
-}
-
-.footer-top {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 67px;
-}
-
-.footer-top-left {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 20%;
-}
-
-
+/* Apps-section */
 
 .apps-section {
   background-color: #043873;
@@ -524,6 +504,28 @@ button {
   order: 1;
   flex-grow: 0;
 }
+
+
+/* start footer style */
+
+.footer {
+  padding: 140px 220px 32px 220px;
+  background-color: #043873;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 67px;
+}
+
+.footer-top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 20%;
+}
+
 =======
 .logo-container {
   display: flex;
