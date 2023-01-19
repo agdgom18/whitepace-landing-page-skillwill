@@ -4,15 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="./assets/css/reset_style.css" />
+    <link rel="stylesheet" href="./assets/css/reset_style.css" />
     <link rel="stylesheet" href="./assets/css/font.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <title>Whitepace - SaaS Landing Page</title>
   </head>
   <body>
+    <header class="header">
+      <img src="./assets/img/logo.svg" alt="Logo" />
+      <nav class="nav">
+        <div class="nav__item"><a href="#">Products</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+        <div class="nav__item"><a href="#">Solutions</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+        <div class="nav__item"><a href="#">Resources</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+        <div class="nav__item"><a href="#">Pricing</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+      </nav>
+      <div class="header__auth">
+        <button class="login" type="login">Login</button>
+        <button class="sign-up">Try Whitepace free <img src="./assets/img/left-arrow.png" alt="" /></button>
+      </div>
+    </header>
 
     <main class="main">
+      <section class="hero-section">
+        <div class="hero-text-part">
+          <div class="hero-text-block">
+            <h2 class="hero-h2">Get More Done with whitepace</h2>
+            <p class="hero-p">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
+          </div>
+          <button class="hero-button">Try Whitepace free &#8594;</button>
+        </div>
+        <div class="hero-img-part"><img class="hero-img" src="./assets/img/blue-image.png" alt="image" /></div>
+      </section>
+      <section class="Customize">
+        <div class="Customize__container">
+          <div class="text_box">
+            <h2>
+              Customise it to your
+              <span>needs </span>
+            </h2>
+            <p class="Customize__paragraph">
+              Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins
+              using the Extension API.
+            </p>
+          </div>
+          <button>Let's Go <img src="./assets/images/Icon.png" alt="arrow-icon" /></button>
+        </div>
+        <div class="image"></div>
+      </section>
       <section class="pricing">
         <div class="container">
           <h2 class="pricing__title subtitle">Choose <span>Your Plan</span></h2>
@@ -68,53 +107,17 @@
           </div>
         </div>
       </section>
-    </main>
-
-  <header class="header">
-      <img src="./assets/img/logo.svg" alt="Logo" />
-      <nav class="nav">
-        <div class="nav__item">
-          <a href="#">Products</a><img src="./assets/img/nav-icon.svg" alt="" />
+      <section class="your-work">
+        <div class="your-work-text">
+          <h1 class="your-work-header">Your work, everywher<span>e you are </span></h1>
+          <p class="your-work-p">
+            Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive.
+            The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!
+          </p>
         </div>
-        <div class="nav__item">
-          <a href="#">Solutions</a
-          ><img src="./assets/img/nav-icon.svg" alt="" />
-        </div>
-        <div class="nav__item">
-          <a href="#">Resources</a
-          ><img src="./assets/img/nav-icon.svg" alt="" />
-        </div>
-        <div class="nav__item">
-          <a href="#">Pricing</a><img src="./assets/img/nav-icon.svg" alt="" />
-        </div>
-      </nav>
-      <div class="header__auth">
-        <button class="login" type="login">Login</button>
-        <button class="sign-up">
-          Try Whitepace free <img src="./assets/img/left-arrow.png" alt="" />
-        </button>
-      </div>
-    </header>
-    <section class="hero-section">
-      <div class="hero-text-part">
-        <div class="hero-text-block">
-          <h2 class="hero-h2">Get More Done with whitepace</h2>
-          <p class="hero-p">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
-        </div>
-        <button class="hero-button"> Try Whitepace free &#8594;</button>
-      </div>
-      <div class="hero-img-part"><img class="hero-img" src="./assets/img/blue-image.png" alt="image"></div>
-    </section>
-
-    <section class="your-work">
-      <div class="your-work-text">
-        <h1 class="your-work-header">Your work, everywher<span>e you are </span></h1>
-        <p class="your-work-p">Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
-      </div>
         <button class="your-work-button">Try Taskey &#8594;</button>
-     
-    </section>
-
+      </section>
+    </main>
     <!-- start footer  -->
     <footer class="footer">
       <section class="footer-top">
@@ -123,10 +126,7 @@
             <img src="./assets/img/footer-logo.svg" alt="footer-logo" />
             <h4>whitepace</h4>
           </div>
-          <p>
-            whitepace was created for the new ways we live and work. We make a
-            better workspace around the world
-          </p>
+          <p>whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
         </div>
         <div class="footer-top-center">
           <div class="footer-top-info">
@@ -157,15 +157,9 @@
       <section class="footer-bottom">
         <div class="footer-bottom-left">
           <a href="#" class="lang-button">
-            <img
-              src="./assets/img/footer-lang-icon.png"
-              alt="footer-lang-icon"
-            />
+            <img src="./assets/img/footer-lang-icon.png" alt="footer-lang-icon" />
             English
-            <img
-              src="./assets/img/footer-lang-icon-arrow.png"
-              alt="footer-lang-icon-arrow"
-            />
+            <img src="./assets/img/footer-lang-icon-arrow.png" alt="footer-lang-icon-arrow" />
           </a>
           <a href="#">Terms & privacy</a>
           <a href="#">Security</a>
@@ -175,22 +169,13 @@
         <div class="footer-bottom-right">
           <div class="footer-social-icons">
             <a href="#">
-              <img
-                src="./assets/img/footer-facebook-icon.png"
-                alt="footer-facebook-icon"
-              />
+              <img src="./assets/img/footer-facebook-icon.png" alt="footer-facebook-icon" />
             </a>
             <a href="#">
-              <img
-                src="./assets/img/footer-twitter-icon.png"
-                alt="footer-twwiter-icon"
-              />
+              <img src="./assets/img/footer-twitter-icon.png" alt="footer-twwiter-icon" />
             </a>
             <a href="#">
-              <img
-                src="./assets/img/footer-linkedin-icon.png"
-                alt="footer-linkedin-icon"
-              />
+              <img src="./assets/img/footer-linkedin-icon.png" alt="footer-linkedin-icon" />
             </a>
           </div>
         </div>
