@@ -434,7 +434,26 @@ button {
   line-height: 23px;
   letter-spacing: -0.02em;
 }
+/*Our sponsors section*/
+.sponsors {
+  margin-bottom: 150px;
+}
 
+.sponsors__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin-bottom: 100px;
+}
+.sponsor__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* Apps-section */
 
 .apps-section {
@@ -446,8 +465,8 @@ button {
   padding: 140px 220px;
   gap: 100px;
   isolation: isolate;
-  background-image: url("../img/apps-background.png");
-  background-repeat:no-repeat;
+  background-image: url('../img/apps-background.png');
+  background-repeat: no-repeat;
   position: absolute;
 }
 
@@ -464,10 +483,9 @@ button {
   align-items: flex-start;
   padding: 0px;
   gap: 60px;
-  
+
   width: 798px;
   height: 468px;
-   
 }
 
 .apps-text-block {
@@ -488,11 +506,11 @@ button {
 .apps-button {
   padding: 20px 40px;
   gap: 10px;
-  
+
   width: 194px;
   height: 63px;
-  
-  background: #4F9CF9;
+
+  background: #4f9cf9;
   border-radius: 8px;
   color: white;
   border: 0;
@@ -504,7 +522,6 @@ button {
   order: 1;
   flex-grow: 0;
 }
-
 
 /* start footer style */
 
@@ -526,8 +543,7 @@ button {
   width: 20%;
 }
 
-=======
-.logo-container {
+======= .logo-container {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -655,4 +671,3 @@ button {
 }
 
 /* end footer style */
-
