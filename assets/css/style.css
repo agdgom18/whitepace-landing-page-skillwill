@@ -88,8 +88,6 @@ h2 {
 }
 /*Marketing section*/
 /* Marketing */
-.marketing {
-}
 
 .marketing__inner {
   display: flex;
@@ -483,6 +481,32 @@ h2 {
   font-size: 18px;
   line-height: 23px;
   letter-spacing: -0.02em;
+}
+/*Your data section*/
+.your__data {
+  padding: 150px 0px;
+}
+
+.data__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data__title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin-bottom: 24px;
+}
+.data__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin-bottom: 60px;
 }
 /*Our sponsors section*/
 .sponsors {
