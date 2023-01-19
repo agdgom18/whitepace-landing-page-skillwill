@@ -6,6 +6,9 @@
   list-style: none;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Inter', sans-serif;
+}
 a {
   color: inherit;
 }

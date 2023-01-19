@@ -1,18 +1,6 @@
 @font-face {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Inter";
-  src: url("../fonts/Inter.ttf") format("truetype");
+  font-family: 'Inter';
+  src: url('../fonts/Inter.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
-=======
-    font-family: inter;
-    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
->>>>>>> testimonial
-=======
-    font-family: inter;
-    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
->>>>>>> 3b793ab78d33944b3598d5a442b281c16533e7c8
