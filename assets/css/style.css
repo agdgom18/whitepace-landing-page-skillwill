@@ -435,6 +435,77 @@ button {
   letter-spacing: -0.02em;
 }
 
+/* Apps-section */
+
+.apps-section {
+  background-color: #043873;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 140px 220px;
+  gap: 100px;
+  isolation: isolate;
+  background-image: url("../img/apps-background.png");
+  background-repeat:no-repeat;
+  position: absolute;
+}
+
+.apps-header {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+}
+
+.apps-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  
+  width: 798px;
+  height: 468px;
+   
+}
+
+.apps-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+.apps-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+}
+
+.apps-button {
+  padding: 20px 40px;
+  gap: 10px;
+  
+  width: 194px;
+  height: 63px;
+  
+  background: #4F9CF9;
+  border-radius: 8px;
+  color: white;
+  border: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
 /* start footer style */
 
 .footer {
@@ -455,6 +526,7 @@ button {
   width: 20%;
 }
 
+=======
 .logo-container {
   display: flex;
   align-items: center;
@@ -583,3 +655,4 @@ button {
 }
 
 /* end footer style */
+
