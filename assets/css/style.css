@@ -9,6 +9,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 24px;
+  overflow-x: hidden;
 }
 
 a {
@@ -16,44 +17,6 @@ a {
 }
 a:hover {
   color: #ffe492;
-}
-button {
-  cursor: pointer;
-}
-
-.container {
-  max-width: 1460px;
-  margin: auto;
-  padding: 0 10px;
-}
-/*Customise*/
-.Customize {
-  display: flex;
-  flex-direction: row;
-  gap: 98px;
-  margin: 5% 8%;
-  justify-content: center;
-  align-items: center;
-}
-h2 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 67px;
-  line-height: 87px;
-
-  color: #212529;
-}
-.image {
-  width: 710px;
-  height: 479px;
-  background: #c4defd;
-}
-
-.Customize__container span {
-  background-image: url(./images/Element.png);
-  background-repeat: no-repeat;
-  background-position: 63% 100%;
 }
 button {
   display: flex;
@@ -71,8 +34,50 @@ button {
   color: #ffffff;
   border: none;
 }
+h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 87px;
+  color: #212529;
+}
 
-.Customize__paragraph {
+.container {
+  max-width: 1460px;
+  margin: auto;
+  padding: 0 10px;
+}
+/*Customise*/
+.customise {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  margin: 5% 8%;
+  justify-content: center;
+  align-items: center;
+}
+.customise__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 700px;
+  gap: 60px;
+}
+.customise__container span {
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: 63% 100%;
+}
+
+.customise .image {
+  width: 710px;
+  height: 479px;
+  background: #c4defd;
+}
+
+.customise__paragraph {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -81,14 +86,7 @@ button {
 
   color: #212529;
 }
-.Customize__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 700px;
-  gap: 60px;
-}
+
 .text_box {
   display: flex;
   flex-direction: column;
@@ -543,7 +541,7 @@ button {
   width: 20%;
 }
 
-======= .logo-container {
+.logo-container {
   display: flex;
   align-items: center;
   gap: 10px;
