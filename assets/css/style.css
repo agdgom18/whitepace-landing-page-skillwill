@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 a {
   color: inherit;
@@ -24,7 +24,6 @@ button {
   gap: 10px;
   background: #4f9cf9;
   border-radius: 6px;
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -32,7 +31,7 @@ button {
   border: none;
 }
 h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 67px;
@@ -75,7 +74,7 @@ h2 {
 }
 
 .customise__paragraph {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -174,7 +173,7 @@ h2 {
 .work__img {
   width: 710px;
   height: 660px;
-  background-image: url(/assets/img/circle_marketing.png);
+  background-image: url(../img/circle_marketing.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -257,7 +256,7 @@ h2 {
 }
 
 .advantages__item::before {
-  content: '';
+  content: "";
   display: inline-block;
   background-image: url(/assets/img/pricing__list__icon.png);
   background-repeat: no-repeat;
@@ -368,7 +367,7 @@ h2 {
 }
 
 .hero-section {
-  background-image: url('../img/hero_section_vector.png');
+  background-image: url("../img/hero_section_vector.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -443,7 +442,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  background-image: url('../img/fingerprint-background.png');
+  background-image: url("../img/fingerprint-background.png");
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -454,7 +453,7 @@ h2 {
   line-height: 87px;
   letter-spacing: -0.02em;
   z-index: 1;
-  background-image: url('../img/blue-vector.png');
+  background-image: url("../img/blue-vector.png");
   background-repeat: no-repeat;
   background-position: 85% 90%;
 }
@@ -511,6 +510,12 @@ h2 {
   color: #212529;
   margin-bottom: 60px;
 }
+.data-span {
+  background-image: url(../img/paint.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 /*Our sponsors section*/
 .sponsors {
   margin-bottom: 150px;
@@ -542,7 +547,7 @@ h2 {
   padding: 140px 220px;
   gap: 100px;
   isolation: isolate;
-  background-image: url('../img/apps-background.png');
+  background-image: url("../img/apps-background.png");
   background-repeat: no-repeat;
   position: relative;
 }
@@ -560,8 +565,6 @@ h2 {
   align-items: flex-start;
   padding: 0px;
   gap: 60px;
-  width: 798px;
-  height: 468px;
 }
 
 .apps-text-block {
@@ -608,10 +611,10 @@ h2 {
   line-height: 87px;
   text-align: center;
 }
-.vectorpic {
-  position: absolute;
-  top: 222px;
-  left: 780px;
+.testimonial-span {
+  background-image: url(../img/price__vector.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 .testimonial-cards {
   display: flex;
@@ -653,12 +656,13 @@ h2 {
   gap: 100px;
 }
 
-.testimonialbutton: :hover {
+.testimonialbutton:hover {
   transform: scale(1.1);
   transition: 0.6s;
   cursor: pointer;
   border: none;
 }
+
 .testimonial-img {
   padding: 15px 25px;
   justify-items: center;
@@ -739,6 +743,10 @@ h2 {
   line-height: 20px;
   letter-spacing: -0.02em;
   color: #ffffff;
+}
+
+.footer-top-info a:hover {
+  color: #ffe492;
 }
 
 .footer-top-right {
