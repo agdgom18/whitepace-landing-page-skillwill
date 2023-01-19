@@ -144,7 +144,7 @@ h2 {
   display: flex;
   align-items: center;
 }
-.work__text__block {
+.work__text-block {
   max-width: 670px;
   order: 2;
   margin-left: 100px;
@@ -308,41 +308,6 @@ h2 {
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-}
-
-/* adaptive for section Pricing */
-@media (max-width: 815px) {
-  .pricing {
-    padding-top: 30px;
-  }
-  .pricing__inner {
-    flex-direction: column;
-  }
-  .pricing__card {
-    text-align: center;
-    padding: 20px;
-  }
-  .pricing__card .pricing__title,
-  .card__title {
-    text-align: center;
-  }
-  .pricing__text {
-    max-width: auto;
-  }
-  .pricing__title {
-    font-size: 60px;
-    line-height: 72px;
-  }
-}
-
-@media (max-width: 468px) {
-  .pricing__title {
-    font-size: 48px;
-    line-height: 58px;
-  }
-  .pricing {
-    padding-bottom: 60px;
-  }
 }
 
 .header {
@@ -566,7 +531,6 @@ h2 {
   align-items: flex-start;
   padding: 0px;
   gap: 60px;
-
   width: 798px;
   height: 468px;
 }
@@ -589,10 +553,8 @@ h2 {
 .apps-button {
   padding: 20px 40px;
   gap: 10px;
-
   width: 194px;
   height: 63px;
-
   background: #4f9cf9;
   border-radius: 8px;
   color: white;
@@ -607,10 +569,6 @@ h2 {
 }
 
 /* testimonial */
-body {
-  font-family: 'Inter', sans-serif;
-}
-
 .testimonial {
   padding: 140px 220px;
   position: relative;
