@@ -3,10 +3,268 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
 
+
 body {
+  font-family: 'Inter', sans-serif;
+
+}
+
+.testimonial{
+  padding: 140px 220px ;
+  position: relative;
+}
+.testimonial-h2{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+}
+.vectorpic{
+  position: absolute;
+  top: 222px;
+  left: 780px;
+  }
+.testimonial-cards{
+  display: flex;
+  gap:32px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.testimonial-article{
+padding: 60px 82px 60px 40px;
+background: #4F9CF9;
+border-radius: 10px;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+.testimonial-cards :hover {
+  background: #FFFFFF;
+  color:#01252A;
+}
+
+.testimonial-article img{
+  margin-bottom: 35px;
+}
+.speach{
+  margin-bottom: 50px;
+}
+
+.testimonial-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.testimonialbutton{
+  display: flex;
+  justify-content: center;
+  gap: 100px
+
+}
+.testimonial-img{
+  padding: 15px 25px;
+  justify-items: center;
+  border: 1.5px solid #4F9CF9;
+  background: #E6F1FE;
+  border-radius: 50%;
+=======
   font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: #ffe492;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+  background: #4f9cf9;
+  border-radius: 6px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+}
+h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 87px;
+  color: #212529;
+}
+
+.container {
+  max-width: 1460px;
+  margin: auto;
+  padding: 0 10px;
+}
+/*Customise*/
+.customise {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  margin: 5% 8%;
+  justify-content: center;
+  align-items: center;
+}
+.customise__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 700px;
+  gap: 60px;
+}
+.customise__container span {
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: 63% 100%;
+}
+
+.customise .image {
+  width: 710px;
+  height: 479px;
+  background: #c4defd;
+}
+
+.customise__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #212529;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/*------------*/
+/* Pricing block */
+.pricing {
+  padding-bottom: 170px;
+}
+
+.pricing__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+.pricing__title span {
+  background-image: url(/assets/img/price__vector.png);
+  background-repeat: no-repeat;
+  background-position: 63% 92%;
+}
+.pricing__text {
+  text-align: center;
+  max-width: 979px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin-bottom: 60px;
+}
+.pricing__inner {
+  display: flex;
+  gap: 32px;
+}
+.pricing__card {
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+  padding: 44px;
+}
+.card__title {
+  font-size: 24px;
+  line-height: 36px;
+  color: #212529;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.card__price {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin-bottom: 25px;
+}
+
+.card__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin-bottom: 25px;
+}
+
+.advantages__list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212529;
+  margin-bottom: 25px;
+}
+
+.advantages__item {
+  margin-left: 13px;
+}
+
+.advantages__item::before {
+  content: '';
+  display: inline-block;
+  background-image: url(/assets/img/pricing__list__icon.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-bottom: 155px;
+}
+
+.testimonial-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.testimonialbutton{
+  display: flex;
+  justify-content: center;
+  gap: 100px
+
+}
+.testimonial-img{
+  padding: 15px 25px;
+  justify-items: center;
+  border: 1.5px solid #4F9CF9;
+  background: #E6F1FE;
+  border-radius: 50%;
   font-size: 18px;
   line-height: 24px;
 }
@@ -19,6 +277,9 @@ body {
   padding: 0 219px;
   position: relative;
   margin-bottom: 155px;
+  right: 10px;
+  top: 0;
+
 }
 
 .our-sponsors h2 {
