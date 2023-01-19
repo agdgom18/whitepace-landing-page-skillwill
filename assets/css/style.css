@@ -60,7 +60,7 @@ h2 {
   gap: 60px;
 }
 .customise__container span {
-  background-image: url(../images/Element.png);
+  background-image: url(../img/Element.png);
   background-repeat: no-repeat;
   background-position: 63% 100%;
 }
@@ -173,7 +173,7 @@ h2 {
 .work__img {
   width: 710px;
   height: 660px;
-  background-image: url(/assets/images/circle_marketing.png);
+  background-image: url(/assets/img/circle_marketing.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -367,14 +367,16 @@ h2 {
 }
 
 .hero-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 140px 220px;
-  isolation: isolate;
   background-image: url('../img/hero_section_vector.png');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.hero-section-container {
+  display: flex;
+  align-items: center;
+  padding: 140px 0px;
+  isolation: isolate;
 }
 
 .hero-text-part {
