@@ -6,74 +6,70 @@
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
-.testimonial{
-  padding: 140px 220px ;
+.testimonial {
+  padding: 140px 220px;
   position: relative;
 }
-.testimonial-h2{
+.testimonial-h2 {
   font-weight: 700;
   font-size: 72px;
   line-height: 87px;
   text-align: center;
 }
-.vectorpic{
+.vectorpic {
   position: absolute;
   top: 222px;
   left: 780px;
-  }
-.testimonial-cards{
+}
+.testimonial-cards {
   display: flex;
-  gap:32px;
+  gap: 32px;
   margin-top: 30px;
   margin-bottom: 60px;
 }
 
-.testimonial-article{
-padding: 60px 82px 60px 40px;
-background: #4F9CF9;
-border-radius: 10px;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-letter-spacing: -0.02em;
-color: #FFFFFF;
+.testimonial-article {
+  padding: 60px 82px 60px 40px;
+  background: #4f9cf9;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
 }
 
 .testimonial-cards :hover {
-  background: #FFFFFF;
-  color:#01252A;
+  background: #ffffff;
+  color: #01252a;
 }
 
-.testimonial-article img{
+.testimonial-article img {
   margin-bottom: 35px;
 }
-.speach{
+.speach {
   margin-bottom: 50px;
 }
 
-.testimonial-bottom{
+.testimonial-bottom {
   display: flex;
   justify-content: space-between;
 }
-.testimonialbutton{
+.testimonialbutton {
   display: flex;
   justify-content: center;
-  gap: 100px
-
+  gap: 100px;
 }
-.testimonial-img{
+.testimonial-img {
   padding: 15px 25px;
   justify-items: center;
-  border: 1.5px solid #4F9CF9;
-  background: #E6F1FE;
+  border: 1.5px solid #4f9cf9;
+  background: #e6f1fe;
   border-radius: 50%;
-=======
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -95,7 +91,7 @@ button {
   gap: 10px;
   background: #4f9cf9;
   border-radius: 6px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -103,7 +99,7 @@ button {
   border: none;
 }
 h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 67px;
@@ -146,7 +142,7 @@ h2 {
 }
 
 .customise__paragraph {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -239,7 +235,7 @@ h2 {
 }
 
 .advantages__item::before {
-  content: '';
+  content: "";
   display: inline-block;
   background-image: url(/assets/img/pricing__list__icon.png);
   background-repeat: no-repeat;
@@ -249,21 +245,20 @@ h2 {
   margin-bottom: 155px;
 }
 
-.testimonial-bottom{
+.testimonial-bottom {
   display: flex;
   justify-content: space-between;
 }
-.testimonialbutton{
+.testimonialbutton {
   display: flex;
   justify-content: center;
-  gap: 100px
-
+  gap: 100px;
 }
-.testimonial-img{
+.testimonial-img {
   padding: 15px 25px;
   justify-items: center;
-  border: 1.5px solid #4F9CF9;
-  background: #E6F1FE;
+  border: 1.5px solid #4f9cf9;
+  background: #e6f1fe;
   border-radius: 50%;
   font-size: 18px;
   line-height: 24px;
@@ -279,7 +274,6 @@ h2 {
   margin-bottom: 155px;
   right: 10px;
   top: 0;
-
 }
 
 .our-sponsors h2 {
