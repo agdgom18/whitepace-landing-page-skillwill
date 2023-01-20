@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset_style.css" />
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/font.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
+
     <title>Whitepace - SaaS Landing Page</title>
   </head>
 
   <body>
     <!-- header section -->
     <header class="header">
-      <img src="./assets/img/logo.svg" alt="Logo" />
+      <a href="#"><img src="./assets/img/logo.svg" alt="Logo" /></a>
       <nav class="nav">
-        <div class="nav__item"><a href="#">Products</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
-        <div class="nav__item"><a href="#">Solutions</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
-        <div class="nav__item"><a href="#">Resources</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
-        <div class="nav__item"><a href="#">Pricing</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+        <div class="nav__item"><a href="#apps__link">Products</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+        <div class="nav__item"><a href="#data__link">Solutions</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+        <div class="nav__item"><a href="#marketing__solution">Resources</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
+        <div class="nav__item"><a href="#pricing__link">Pricing</a><img src="./assets/img/nav-icon.svg" alt="" /></div>
       </nav>
       <div class="header__auth">
         <button class="login" type="login">Login</button>
@@ -44,7 +46,7 @@
         </div>
       </section>
       <!-- marketing section -->
-      <section class="marketing">
+      <section id="marketing__solution" class="marketing">
         <div class="container">
           <div class="marketing__inner">
             <div class="marketing__text">
@@ -60,17 +62,17 @@
               <img src="./assets/img/blue-image.png" alt="" />
             </div>
           </div>
-         
+        </div>
       </section>
-       <!-- work section -->
+      <!-- work section -->
       <section class="work">
         <div class="work__inner container">
           <div class="work__text-block">
             <h2 class="work__title subtitle">Work together</h2>
             <img class="work__vector" src="./assets/img/work__vector.png" alt="" />
             <p class="work__text">
-              With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share
-              the URL with others.
+              With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the
+              URL with others.
             </p>
             <button class="work__btn">Try it now &rarr;</button>
           </div>
@@ -79,7 +81,7 @@
       </section>
       <section class="customise">
         <div class="customise__container">
-          <div class="text_box">
+          <div class="text__box">
             <h2>
               Customise it to your
               <span>needs </span>
@@ -94,7 +96,7 @@
         <div class="image"></div>
       </section>
       <!-- pricing section -->
-      <section class="pricing">
+      <section id="pricing__link" class="pricing">
         <div class="container">
           <h2 class="pricing__title subtitle">Choose <span>Your Plan</span></h2>
           <p class="pricing__text">
@@ -160,7 +162,7 @@
         <button class="your-work-button">Try Taskey &#8594;</button>
       </section>
       <!--Your data-->
-      <section class="your__data">
+      <section id="data__link" class="your__data">
         <div class="container">
           <div class="data__inner">
             <div class="data__block">
@@ -191,7 +193,7 @@
         </div>
       </section>
       <!-- app section -->
-      <section class="apps-section">
+      <section id="apps__link" class="apps-section">
         <div class="apps-img">
           <img src="assets/img/apps-img.png" alt="apps" />
         </div>
@@ -276,11 +278,11 @@
           </article>
         </section>
         <div class="testimonialbutton">
-          <button class="testimonial-img"> 
+          <button class="testimonial-img">
             <img src="./assets/img/arrow1.png" alt="arrow1" />
           </button>
-          <button class="testimonial-img"> 
-            <img src="./assets/img/arrow2.png" alt="arrow2" /> 
+          <button class="testimonial-img">
+            <img src="./assets/img/arrow2.png" alt="arrow2" />
           </button>
         </div>
       </section>

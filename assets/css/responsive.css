@@ -1,37 +1,5 @@
 /* adaptive for section Pricing */
-@media (max-width: 815px) {
-  .pricing {
-    padding-top: 30px;
-  }
-  .pricing__inner {
-    flex-direction: column;
-  }
-  .pricing__card {
-    text-align: center;
-    padding: 20px;
-  }
-  .pricing__card .pricing__title,
-  .card__title {
-    text-align: center;
-  }
-  .pricing__text {
-    max-width: auto;
-  }
-  .pricing__title {
-    font-size: 60px;
-    line-height: 72px;
-  }
-}
 
-@media (max-width: 468px) {
-  .pricing__title {
-    font-size: 48px;
-    line-height: 58px;
-  }
-  .pricing {
-    padding-bottom: 60px;
-  }
-}
 /* Start footer responsive design */
 
 @media only screen and (max-width: 1200px) {
@@ -71,6 +39,29 @@
     gap: 10px;
   }
 }
+@media (max-width: 815px) {
+  .pricing {
+    padding-top: 30px;
+  }
+  .pricing__inner {
+    flex-direction: column;
+  }
+  .pricing__card {
+    text-align: center;
+    padding: 20px;
+  }
+  .pricing__card .pricing__title,
+  .card__title {
+    text-align: center;
+  }
+  .pricing__text {
+    max-width: auto;
+  }
+  .pricing__title {
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .footer-top-center {
@@ -79,67 +70,76 @@
   }
 }
 @media (max-width: 468px) {
-  .Customize {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin: 12% 0%;
-  }
-  h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 10px;
-    color: #212529;
-    text-align: center;
-  }
-  .Customize__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Customize__container span {
-    background-image: url(./images/Element.png);
-    background-repeat: no-repeat;
-    background-position: 90% 20px;
-  }
-  .text_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 30px;
-    align-items: center;
-  }
-  button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    gap: 10px;
-    background: #4f9cf9;
-    border-radius: 6px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    color: #ffffff;
-    border: none;
-  }
+  @media (max-width: 468px) {
+    .Customize {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin: 12% 0%;
+    }
+    h2 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 10px;
+      color: #212529;
+      text-align: center;
+    }
+    .Customize__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+    .Customize__container span {
+      background-image: url(./images/Element.png);
+      background-repeat: no-repeat;
+      background-position: 90% 20px;
+    }
+    .text_box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 30px;
+      align-items: center;
+    }
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      gap: 10px;
+      background: #4f9cf9;
+      border-radius: 6px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      color: #ffffff;
+      border: none;
+    }
 
-  .Customize__paragraph {
-    font-size: 10px;
-    line-height: 15px;
-    color: #212529;
+    .Customize__paragraph {
+      font-size: 10px;
+      line-height: 15px;
+      color: #212529;
 
-    width: 300px;
-  }
-  .image {
-    width: 300px;
-    height: 180px;
+      width: 300px;
+    }
+    .image {
+      width: 300px;
+      height: 180px;
+    }
+    .pricing__title {
+      font-size: 48px;
+      line-height: 58px;
+    }
+    .pricing {
+      padding-bottom: 60px;
+    }
   }
 }
 /* End footer responsive design */

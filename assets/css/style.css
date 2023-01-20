@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,15 +6,16 @@
   list-style: none;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 a {
   color: inherit;
 }
-a::hover {
-  color: #ffe492;
-}
+
 button {
   display: flex;
   flex-direction: row;
@@ -30,8 +31,14 @@ button {
   color: #ffffff;
   border: none;
 }
+
+button:hover {
+  transform: translateX(5px) translateY(-7px);
+  transition: all 0.4s ease;
+}
+
 h2 {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 67px;
@@ -44,6 +51,7 @@ h2 {
   margin: auto;
   padding: 0 10px;
 }
+
 /*Customise*/
 .customise {
   display: flex;
@@ -74,7 +82,7 @@ h2 {
 }
 
 .customise__paragraph {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -256,7 +264,7 @@ h2 {
 }
 
 .advantages__item::before {
-  content: "";
+  content: '';
   display: inline-block;
   background-image: url(/assets/img/pricing__list__icon.png);
   background-repeat: no-repeat;
@@ -367,7 +375,7 @@ h2 {
 }
 
 .hero-section {
-  background-image: url("../img/hero_section_vector.png");
+  background-image: url('../img/hero_section_vector.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -442,7 +450,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  background-image: url("../img/fingerprint-background.png");
+  background-image: url('../img/fingerprint-background.png');
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -453,7 +461,7 @@ h2 {
   line-height: 87px;
   letter-spacing: -0.02em;
   z-index: 1;
-  background-image: url("../img/blue-vector.png");
+  background-image: url('../img/blue-vector.png');
   background-repeat: no-repeat;
   background-position: 85% 90%;
 }
@@ -463,6 +471,8 @@ h2 {
   font-size: 18px;
   line-height: 30px;
   letter-spacing: -0.02em;
+  text-align: center;
+  max-width: 1029px;
 }
 
 .your-work-text {
@@ -547,7 +557,7 @@ h2 {
   padding: 140px 220px;
   gap: 100px;
   isolation: isolate;
-  background-image: url("../img/apps-background.png");
+  background-image: url('../img/apps-background.png');
   background-repeat: no-repeat;
   position: relative;
 }
@@ -637,6 +647,7 @@ h2 {
 .testimonial-cards :hover {
   background: #ffffff;
   color: #01252a;
+  transition: all 0.4s ease;
 }
 
 .testimonial-article img {
